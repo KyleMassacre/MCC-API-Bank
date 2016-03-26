@@ -1,6 +1,10 @@
 {
 	"name": "kylemassacre-mcc/bank",
 	"description": "A bank module for the MCC api",
+    "require": {
+      "php": ">=5.5.9",
+      "laravel/framework": "5.1.*"
+    },
 	"authors": [
 		{
 			"name": "Kyle Ellis",
