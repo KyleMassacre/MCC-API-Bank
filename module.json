@@ -3,12 +3,12 @@
     "alias": "bank",
     "description": "Banking API for MCC",
     "keywords": [],
-    "active": 1,
+    "active": 0,
     "order": 0,
     "providers": [
         "Modules\\Bank\\Providers\\BankServiceProvider"
     ],
-    "aliases":{},
+    "aliases": [],
     "files": [
         "start.php"
     ]

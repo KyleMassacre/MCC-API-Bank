@@ -2,7 +2,19 @@
 #### _For Laravel 5.1_
 
 #### Installation
-*_Todo_*
+1. Install via cli
+⋅⋅1. ```php artisan module:install kylemassacre-mcc/bank```
+2. Open up app/Providers/AppServiceProvider.php and add in the register method:
+⋅⋅2.
+```php
+$this->app->bind([
+    ...
+    \Modules\Bank\Providers\BankServiceProvider::class
+]);
+```
+3. Run the artisan command:
+⋅⋅3. ```php artisan vendor:publish --provider="Modules\Bank\Providers\BankServiceProvider"```
+4. Enjoy!!!
 #### API Endpoints:
 
 | Method        | Endpoint                  | Route Name    |
