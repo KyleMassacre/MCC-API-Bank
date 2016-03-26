@@ -1,0 +1,15 @@
+{
+    "name": "Bank",
+    "alias": "bank",
+    "description": "Banking API for MCC",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Bank\\Providers\\BankServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

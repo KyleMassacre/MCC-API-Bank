@@ -1,0 +1,15 @@
+{
+	"name": "kylemassacre-mcc/bank",
+	"description": "A bank module for the MCC api",
+	"authors": [
+		{
+			"name": "Kyle Ellis",
+			"email": "ky.ellis83@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Modules\\Bank\\": ""
+		}
+	}
+}
